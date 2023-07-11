@@ -1,16 +1,18 @@
 import React from 'react';
 
 
-export class AddClient extends React.Component{
+export class AddClient extends React.Component {
 
     // componentDidMount(){
     //     const { userId } = this.props.match.params
     // }
 
-    render (){
+    render() {
 
         return (
-            <div>Add Client!</div>
+            <div>
+                <div>Add Client!</div>
+            </div>
         )
     }
 }
