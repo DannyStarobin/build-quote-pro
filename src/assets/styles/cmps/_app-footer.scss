@@ -1,0 +1,15 @@
+.app-footer {
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        color: rgb(255, 165, 87);
+
+    }
+}

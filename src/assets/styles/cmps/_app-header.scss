@@ -1,0 +1,19 @@
+.app-header {
+    // height: 10vh;
+    padding: 20px;
+    height: 75px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+
+    h1,h2 {
+        color: rgb(255, 165, 87);
+        font-size: 32px;
+        margin: auto;
+        // text-align: center;
+    }
+
+    h2:hover,
+    h1:hover{
+        color: rgb(1, 203, 95);
+    }
+}

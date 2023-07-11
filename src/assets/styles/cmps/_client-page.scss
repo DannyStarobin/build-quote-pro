@@ -1,0 +1,46 @@
+
+.client-page{
+ 
+  padding: 0 20px;
+
+    .page-title{
+        padding-bottom: 10px;
+    };
+
+    .client-container{
+        margin: 0 auto 30px;
+        border: 1px solid black;
+        padding: 0 20px 20px;
+        align-items: center;
+        max-width: 300px;
+        border-radius: 5px;
+        
+
+        button{
+            width: 150px;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px 0;
+            border: 1px solid black;
+
+        }
+        button:hover{
+            // background-color: lightgray;
+            border: 1px solid rgb(255, 165, 87);
+        }
+    }
+
+    .projects-list{
+        .project-preview{
+
+           width: 300px;
+           text-align: center;
+           border: 1px solid black;
+           border-radius: 5px;
+        }
+
+        .project-preview:hover{
+            border: 1px solid rgb(255, 165, 87);
+        };
+    }
+}
